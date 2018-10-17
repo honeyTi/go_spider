@@ -51,5 +51,4 @@ func printCityList(content []byte)  {
 		fmt.Printf("City: %s; Url: %s \n", m[2], m[1])
 	}
 	fmt.Printf("matches found: %d\n",len(matches))
-
 }
